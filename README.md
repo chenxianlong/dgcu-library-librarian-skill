@@ -36,7 +36,7 @@ python scripts/librarian.py "东莞城市学院学生能借几本书？"
 
 ## 开放接口
 
-`GET https://lib.dgcu.edu.cn/libai/api/public` 查看能力及限额。
+`GET https://lab.dgcu.edu.cn/library/api` 查看能力及限额。
 
 向同一地址 POST JSON：
 

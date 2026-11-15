@@ -6,7 +6,7 @@ import sys
 import urllib.error
 import urllib.request
 
-ENDPOINT = 'https://lib.dgcu.edu.cn/libai/api/public'
+ENDPOINT = 'https://lab.dgcu.edu.cn/library/api'
 
 
 def main():
