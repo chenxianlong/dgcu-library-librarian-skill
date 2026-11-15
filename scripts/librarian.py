@@ -21,7 +21,7 @@ def main():
     request = urllib.request.Request(
         ENDPOINT,
         data=json.dumps({'action': args.action, 'query': args.query.strip(), 'limit': args.limit}).encode('utf-8'),
-        headers={'Content-Type': 'application/json', 'User-Agent': 'dgcu-library-librarian-skill/1.0.1'},
+        headers={'Content-Type': 'application/json', 'User-Agent': 'dgcu-library-librarian-skill/1.0.2'},
         method='POST',
     )
     try:
