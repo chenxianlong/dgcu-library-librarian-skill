@@ -58,4 +58,4 @@ python scripts/librarian.py "东莞城市学院学生能借几本书？"
 
 ## 许可
 
-技能说明及客户端代码使用 [MIT License](LICENSE)。图书元数据、书籍及远程服务不因本许可获得再分发或访问授权。
+技能说明及客户端代码使用 [MIT License](LICENSE.txt)。图书元数据、书籍及远程服务不因本许可获得再分发或访问授权。
