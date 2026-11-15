@@ -6,7 +6,7 @@ import sys
 import urllib.error
 import urllib.request
 
-ENDPOINT = 'https://lab.dgcu.edu.cn/library/api'
+ENDPOINT = 'https://lib.dgcu.edu.cn/libai/api/public'
 
 
 def main():
@@ -21,7 +21,7 @@ def main():
     request = urllib.request.Request(
         ENDPOINT,
         data=json.dumps({'action': args.action, 'query': args.query.strip(), 'limit': args.limit}).encode('utf-8'),
-        headers={'Content-Type': 'application/json', 'User-Agent': 'dgcu-library-librarian-skill/1.0.0'},
+        headers={'Content-Type': 'application/json', 'User-Agent': 'dgcu-library-librarian-skill/1.0.1'},
         method='POST',
     )
     try:

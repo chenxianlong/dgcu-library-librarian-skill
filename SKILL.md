@@ -4,7 +4,7 @@ description: 远程调用东莞城市学院图书馆 AI 馆员，查询本馆与
 license: MIT
 metadata:
   slug: dgcu-library-librarian
-  version: 1.0.0
+  version: 1.0.1
   displayName: 东莞城市学院图书馆 AI 馆员
   summary: 公开远程图书馆咨询、实时馆藏与双平台电子书检索，无需企业微信登录。
   homepage: https://github.com/chenxianlong/dgcu-library-librarian-skill
@@ -31,9 +31,9 @@ python scripts/librarian.py --action dongguan "三体" --limit 5
 - `catalog`：实时查询东莞城市学院纸质馆藏、索书号、地点和可借册数。
 - `dongguan`：实时查询东莞图书馆公开馆藏。
 
-只发送完成当前任务需要的问题或检索词，不发送整个聊天记录、文件、密码、证件号或借阅账号。请求通过 HTTPS 发给 `lab.dgcu.edu.cn`；`ask` 的问题会交由图书馆所配置的模型服务商处理。用户要求本技能范围内的查询时即可调用，不需要额外索取学校凭据。
+只发送完成当前任务需要的问题或检索词，不发送整个聊天记录、文件、密码、证件号或借阅账号。请求通过 HTTPS 发给 `lib.dgcu.edu.cn`；`ask` 的问题会交由图书馆所配置的模型服务商处理。用户要求本技能范围内的查询时即可调用，不需要额外索取学校凭据。
 
-若没有 Python，可用支持 HTTPS POST 的工具调用固定公开地址 `https://lab.dgcu.edu.cn/library/api`，JSON 示例：
+若没有 Python，可用支持 HTTPS POST 的工具调用固定公开地址 `https://lib.dgcu.edu.cn/libai/api/public`，JSON 示例：
 
 ```json
 {"action":"ebooks","query":"Claude Code","limit":6}
