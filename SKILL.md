@@ -4,8 +4,8 @@ description: 远程调用东莞城市学院图书馆 AI 馆员，查询本馆与
 license: MIT
 metadata:
   slug: dgcu-library-librarian
-  version: 1.0.2
-  displayName: 东莞城市学院图书馆 AI 馆员
+  version: 1.0.3
+  displayName: dgcu-library-AI-librarian
   summary: 公开远程图书馆咨询、实时馆藏与双平台电子书检索，无需企业微信登录。
   homepage: https://github.com/chenxianlong/dgcu-library-librarian-skill
   tags: [library, books, ebooks, education, chinese]
